@@ -20,7 +20,7 @@ if max(Qcheck)==q0
     qy=(R(1,3)-R(3,1))/(4*q0);
     qz=(R(2,1)-R(1,2))/(4*q0);
 elseif max(Qcheck)==qx
-    qx=sqrt(qx/4);
+    qx=-sqrt(qx/4);
     qy=(R(2,1)+R(1,2))/(4*qx);
     qz=(R(1,3)+R(3,1))/(4*qx);
     q0=(R(3,2)-R(2,3))/(4*qx);
